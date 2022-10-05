@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+.navigation {
+  background-color: #22d3ee;
+  padding-left: 2rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.link {
+  display: inline;
+  padding: 1rem;
+}
+
+.nav-link {
+  text-align: right;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.linked {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.active {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navigation .active {
+  color: white;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+  max-width: 25%;
+  max-height: 25%;
+  margin-top: 2rem;
+}
+
+.header {
+  font-weight: bold;
+}
+
+.heading {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+section {
+  text-align: center;
+  padding-bottom: 0rem;
+  background-color: #f4f4f5;
+  padding-top: 0.5rem;
+}
+
+.btn {
+  background-color: #22d3ee;
+  border-radius: 1rem;
+  text-decoration: none;
+  border: 1rem;
+  padding: 0.5rem 1.5rem;
+  color: white;
+}
+
+.btn:hover {
+  border: 1px solid #22d3ee;
+  background-color: white;
+
+  /* transition: 0.7s; */
+}
+
+.btn:hover a {
+  color: #22d3ee;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.secondproject {
+  padding-top: 0.5rem;
+  background-color: white;
+  padding-bottom: 2rem;
+}
+
+.firstproject {
+  padding-bottom: 2rem;
+}
+
+.link a:hover {
+  color: grey;
+  font-weight: bold;
+}
+
+.footer-icon:hover {
+  background-color: #06b6d4;
+  border-radius: 0.2rem;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 2rem;
+  background-color: #22d3ee;
+}
+
+.footer-heading {
+  padding-bottom: 1rem;
+  padding-bottom: 2rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.sociallinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.linkedinicon {
+  padding-left: 20rem;
+  margin-left: 40rem;
+}
+
+.twittericon {
+  padding-right: 4em;
+  align-items: center;
+  padding-left: 4rem;
+}
+
+.githubicon {
+  padding-right: 20rem;
+  margin-right: 40rem;
+}
+
+.fa-linkedin-in {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-github {
+  color: white;
+}
+
+.footer-heading {
+  font-weight: bold;
+}
