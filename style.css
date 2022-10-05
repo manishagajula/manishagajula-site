@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+.navigation {
+  background-color: #22d3ee;
+  padding-left: 2rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.link {
+  display: inline;
+  padding: 1rem;
+}
+
+.nav-link {
+  text-align: right;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.linked {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.active {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navigation .active {
+  color: white;
+}
+
+.heading-name {
+  padding-top: 5em;
+  color: grey;
+  padding-left: 0em;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.heading-profile {
+  color: #22d3ee;
+  padding-left: 0em;
+  padding-top: 56rem;
+  font-size: x-large;
+}
+
+.heading {
+  padding-left: 0em;
+  padding-top: 0em;
+  font-size: xx-large;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.header {
+  font-weight: bold;
+}
+
+/* main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+  max-width: 25%;
+  max-height: 25%;
+  margin-top: 2rem;
+}
+
+#totalskills {
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0rem;
+  background-color: #f4f4f5;
+}
+
+.skills {
+  padding-bottom: 1rem;
+}
+
+.skill-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skills-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fa-square-js {
+  color: #f0db4f;
+}
+
+.fa-html5 {
+  color: #e34c26;
+}
+
+.fa-css3-alt {
+  color: #264de4;
+}
+
+.fa-react {
+  color: #61dbfb;
+}
+
+.fa-square-github {
+  color: purple;
+}
+
+.projects {
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+.blogs {
+  text-align: center;
+  background-color: #f4f4f5;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.blogs {
+  font-size: 1rem;
+  padding-bottom: 2rem;
+}
+
+/* .btn {
+  background-color: white;
+  border-radius: 1rem;
+  text-decoration: none;
+  border-color: #22d3ee;
+  min-height: 2rem;
+  min-width: 8rem;
+}
+
+.btn:hover {
+  background-color: #22d3ee;
+  transition: 0.7s;
+  color: white;
+} */
+
+.btn {
+  background-color: #22d3ee;
+  border-radius: 1rem;
+  text-decoration: none;
+  border: 1rem;
+  padding: 0.5rem 1.5rem;
+  color: white;
+}
+
+.btn:hover {
+  border: 1px solid #22d3ee;
+  background-color: white;
+
+  /* transition: 0.7s; */
+}
+
+.btn:hover a {
+  color: #22d3ee;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.link a:hover {
+  color: grey;
+  font-weight: bold;
+}
+
+.footer-icon:hover {
+  background-color: #06b6d4;
+  border-radius: 0.2rem;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 2rem;
+  background-color: #22d3ee;
+}
+
+.footer-heading {
+  padding-bottom: 1rem;
+  padding-bottom: 2rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.sociallinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.linkedinicon {
+  padding-left: 20rem;
+  margin-left: 40rem;
+}
+
+.twittericon {
+  padding-right: 4em;
+  align-items: center;
+  padding-left: 4rem;
+}
+
+.githubicon {
+  padding-right: 20rem;
+  margin-right: 40rem;
+}
+
+.fa-linkedin-in {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-github {
+  color: white;
+}
+
+.footer-heading {
+  font-weight: bold;
+}
